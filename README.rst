@@ -132,3 +132,8 @@ ways:
 4. Read the sha256 checksums that RPM already stores for each file
    (``FILEDIGESTS``), and verify the signatures of those checksums. This is
    "light" because you're simply trusting RPM's pre-computed checksums.
+
+COPYING
+-------
+
+This is under the same license as ``ima-evm-utils``, GPLv2 (see ``COPYING``).
