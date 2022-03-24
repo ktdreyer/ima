@@ -12,6 +12,7 @@ Useful links:
 - https://lists.fedorahosted.org/archives/list/devel@lists.fedoraproject.org/thread/ME54KAOC3HXVPQCE7TW6GHXC6JV7GLUS/
 - https://rpm-software-management.github.io/rpm/manual/signatures_digests.html
 - For a guide to IMA, see the end of this presentation: https://ostconf.com/system/attachments/files/000/001/694/original/Karasev%E2%80%8B_Gerasimov.pdf?1570085327
+- SUSE's IMA guidance: https://en.opensuse.org/SDB:Ima_evm
 - For an experimental Ansible playbook, see https://github.com/myllynen/rhel-ansible-roles/blob/master/roles/ima_evm_setup/defaults/main.yml
 
 Existing software that deals with IMA signatures:
