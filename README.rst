@@ -76,10 +76,9 @@ download the latest RPMs there and look at the RPM headers.
 
 You can read the raw signature bytes in the RPM sigheader like so::
 
-    rpm -q --qf '%{FILESIGNATURES}\n' -p bash-5.1.8-3.fc36.src.rpm
+    rpm -q --qf '[%{BASENAMES} %{FILESIGNATURES}\n]' -p bash-5.1.8-3.fc36.src.rpm
 
-Note that ``-qf`` does not yet know how to show RPM's ``STRING_ARRAY`` format,
-so it will only show the first file's signature value. Also, `RPM's manual
+`RPM's manual
 <https://rpm-software-management.github.io/rpm/manual/signatures_digests.html>`_
 does not show the ``FILESIGNATURES`` header `yet
 <https://github.com/rpm-software-management/rpm-web/issues/28>`_.
